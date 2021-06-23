@@ -1,0 +1,9 @@
+padding: 30px;
+margin-top: 80px;
+float: right;
+float: right;
+float: right;
+object-fit: cover;
+border: none;
+background-color: #747474;
+background-image: linear-gradient(to right, #1aab4d 30%, #fff 0%);

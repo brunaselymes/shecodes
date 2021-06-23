@@ -1,0 +1,23 @@
+
+
+body{
+    background-color: #F7F7F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header a{
+    display: inline-block;
+    background-color: #FFF;    
+}
+nav{
+    float: right;
+}
+#logo{
+    float: left;
+    color: #C70039;
+}
+.card{
+    background-color:#FFF;
+}
+.program-type{
+    color:#C70039;
+}
