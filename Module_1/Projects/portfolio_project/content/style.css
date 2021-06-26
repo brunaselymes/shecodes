@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+html{
+    margin:0;
+    color:#FFF;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: rgb(241,160,153);
+    background: linear-gradient(90deg, rgba(241,160,153,1) 0%, rgba(255,204,185,1) 50%);
+}
+    
+header{
+    height: 5vh;
+    min-width: 390px;
+}
+header a{
+    padding: 1em;
+    float: right;
+    text-decoration: none;
+    color:#FFF;
+    
+}
+header a:hover{
+    
+    font-weight:bold;
+    font-size: 1.2em;
+   
+}
+.hero{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.title{
+    font-size: 5em;
+}
+#hero-text{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+#my-name{
+    color: #D16B85;
+}
+section > div > h2{
+    color:#D6677e;
+    font-size: 4em;
+    
+}
+.about-me-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about-photo{
+    border-radius: 50%;
+    width: 50%;
+    float: left; 
+
+}
+.about-me h3{
+    font-size: 2em;
+}
+
+.project-images{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.social-icons{
+    height: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color:#FFF;
+}
+.contact h3:hover{
+    font-size: 2em;
+    cursor: pointer;
+}
+.contact-container{
+    padding-top: 1em;
+    width: 65%;
+    text-align: right;
+}

@@ -44,6 +44,7 @@ header * {
 }
 
 #header-images img {
+    border-radius: 50%;
 }
 
 h1 {
@@ -91,7 +92,7 @@ nav img {
     border: 2px solid #3f3f3f;
     height: 36px;
     object-fit: cover;
-    border-radius: 50%;
+    
 }
 
 nav ul {
@@ -144,6 +145,7 @@ section {
     text-align: left;
     float: left;
     width: 20%;
+    vertical-align: middle;
 }
 
 .small-graph img {
