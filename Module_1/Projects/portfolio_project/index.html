@@ -11,10 +11,11 @@
 
 <body>
     <header>
-        <a href="./contactme.html">How to reach me</a>
-        <a href="#my-projects">Projects</a>
-        <a href="#about-me">About me</a>
-
+        <nav id="navbar">
+            <a href="./contactme.html">How to reach me</a>
+            <a href="#my-projects">Projects</a>
+            <a href="#about-me">About me</a>
+        </nav>
 
     </header>
     <main>
@@ -27,7 +28,7 @@
 
         <section id="about-me">
             <div class="about-me">
-                <h2>About me</h2>
+                <h2 class="section-name">About me</h2>
 
                 <div class="about-me-container">
 
@@ -65,121 +66,71 @@
             </div>
         </section>
 
-        <section id="my-projects">
-            <div class="projects">
-                <h2>What I've been working on</h2>
-                <div class="projects-container">
-                    <div class="project-card">
-                        <div class="project-wrapper__text">
-                            <h3 class="project-title">Project 1</h3>
-                        </div>
-                        <div>
-                            <img class="project-images" src="./images/cereal.jpg"/>
-                            <p class="mb-4">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Excepturi neque, ipsa animi maiores repellendus distinctio
-                                aperiam earum dolor voluptatum consequatur blanditiis
-                                inventore debitis fuga numquam voluptate ex architecto
-                                itaque molestiae.
-                            </p>
-                        </div>
-                        <a target="_blank" class="" href="#">
-                            See Live
-                        </a>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-wrapper__text">
-                            <h3 class="project-title">Project 2</h3>
-                        </div>
-                        <div>
-                            <img class="project-images" src="./images/icecream.jpg"/>
-                            <p class="mb-4">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Excepturi neque, ipsa animi maiores repellendus distinctio
-                                aperiam earum dolor voluptatum consequatur blanditiis
-                                inventore debitis fuga numquam voluptate ex architecto
-                                itaque molestiae.
-                            </p>
-                        </div>
-                        <a target="_blank" class="" href="#">
-                            See Live
-                        </a>
-                    </div>
+        <section class="projects" id="my-projects">
+            <div>
+            <h2 class="section-name">What I've been doing</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="./images/peach.jpg" class="project-images">
+                    <div class="project-info">
+                        <h3 class="project-title">Project 1</h3>
+                        <p class="project-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iure accusamus placeat veritatis cumque. Quis ea at, cum fugit atque doloribus recusandae aspernatur! Voluptatibus cupiditate laboriosam culpa eos exercitationem. Dolores!
+                        </p>
 
-                    <div class="project-card">
-                        <div class="project-wrapper__text">
-                            <h3 class="project-title">Project 3</h3>
-                        </div>
-                        <div>
-                            <img class="project-images" src="./images/fruit.jpg"/>
-                            <p class="mb-4">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Excepturi neque, ipsa animi maiores repellendus distinctio
-                                aperiam earum dolor voluptatum consequatur blanditiis
-                                inventore debitis fuga numquam voluptate ex architecto
-                                itaque molestiae.
-                            </p>
-                        </div>
-                        <a target="_blank" class="" href="#">
-                            See Live
-                        </a>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-wrapper__text">
-                            <h3 class="project-title">Project 1</h3>
-                        </div>
-                        <div>
-                            <img class="project-images" src="./images/tiles.jpg"/>
-                            <p class="mb-4">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Excepturi neque, ipsa animi maiores repellendus distinctio
-                                aperiam earum dolor voluptatum consequatur blanditiis
-                                inventore debitis fuga numquam voluptate ex architecto
-                                itaque molestiae.
-                            </p>
-                        </div>
-                        <a target="_blank" class="" href="#">
-                            See Live
-                        </a>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-wrapper__text">
-                            <h3 class="project-title">Project 2</h3>
-                        </div>
-                        <div>
-                            <img class="project-images" src="./images/flowers.jpg"/>
-                            <p class="mb-4">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Excepturi neque, ipsa animi maiores repellendus distinctio
-                                aperiam earum dolor voluptatum consequatur blanditiis
-                                inventore debitis fuga numquam voluptate ex architecto
-                                itaque molestiae.
-                            </p>
-                        </div>
-                        <a target="_blank" class="" href="#">
-                            See Live
-                        </a>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-wrapper__text">
-                            <h3 class="project-title">Project 3</h3>
-                        </div>
-                        <div>
-                            <img class="project-images" src="./images/peach.jpg"/>
-                            <p class="mb-4">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Excepturi neque, ipsa animi maiores repellendus distinctio
-                                aperiam earum dolor voluptatum consequatur blanditiis
-                                inventore debitis fuga numquam voluptate ex architecto
-                                itaque molestiae.
-                            </p>
-                        </div>
-                        <a target="_blank" class="" href="#">
-                            See Live
-                        </a>
                     </div>
                 </div>
+                <div class="project-card">
+                    <img src="./images/cereal.jpg" class="project-images">
+                    <div class="project-info">
+                        <h3 class="project-title">Project 2</h3>
+                        <p class="project-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iure accusamus placeat veritatis cumque. Quis ea at, cum fugit atque doloribus recusandae aspernatur! Voluptatibus cupiditate laboriosam culpa eos exercitationem. Dolores!
+                        </p>
+
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./images/flowers.jpg" class="project-images">
+                    <div class="project-info">
+                        <h3 class="project-title">Project 3</h3>
+                        <p class="project-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iure accusamus placeat veritatis cumque. Quis ea at, cum fugit atque doloribus recusandae aspernatur! Voluptatibus cupiditate laboriosam culpa eos exercitationem. Dolores!
+                        </p>
+
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./images/icecream.jpg" class="project-images">
+                    <div class="project-info">
+                        <h3 class="project-title">Project 4</h3>
+                        <p class="project-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iure accusamus placeat veritatis cumque. Quis ea at, cum fugit atque doloribus recusandae aspernatur! Voluptatibus cupiditate laboriosam culpa eos exercitationem. Dolores!
+                        </p>
+
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./images/fruit.jpg" class="project-images">
+                    <div class="project-info">
+                        <h3 class="project-title">Project 5</h3>
+                        <p class="project-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iure accusamus placeat veritatis cumque. Quis ea at, cum fugit atque doloribus recusandae aspernatur! Voluptatibus cupiditate laboriosam culpa eos exercitationem. Dolores!
+                        </p>
+
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./images/tiles.jpg" class="project-images">
+                    <div class="project-info">
+                        <h3 class="project-title">Project 6</h3>
+                        <p class="project-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iure accusamus placeat veritatis cumque. Quis ea at, cum fugit atque doloribus recusandae aspernatur! Voluptatibus cupiditate laboriosam culpa eos exercitationem. Dolores!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
     </main>
@@ -189,6 +140,8 @@
         <!-- TODO -->
 
     </footer>
+
+    <script src="./script/script.js"></script>
 
 </body>
 

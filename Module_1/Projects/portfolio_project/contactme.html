@@ -4,30 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>Keep in touch</title>
     <link rel="stylesheet" href="./content/style.css">
 </head>
 <body>
     <header>
-        
+        <nav id="navbar">
         <a href="./index.html#my-projects">Projects</a>
         <a href="./index.html#about-me">About me</a>
-        <a href="./index.html">Home</a>
+        
+        <a id="nav-name" href="./index.html">Bruna Selymes</a>
+    </nav>
     </header>
 
     <main>
         <section id="contact-me">
             <div class="contact">
-                <h2>Get in touch</h2>
+                <h2>Let's have a chat</h2>
+
+                <form class="contact-me-form" action="https://formspree.io/f/xgerzabn" method="POST">
+                    <div class="form-item">
+                        <input type="text" name="name" id="name-input" placeholder="What's your name?">
+                    </div>
+                    <div class="form-item">
+                        <input type="email" name="email" id="email-input" placeholder="Email address">
+                    </div>
+                    <div class="form-item">
+                        <textarea id="message" rows="10" columns="3" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="form-item">
+                        <input type="submit" id="submit-button" value="Send">
+                    </div>
+                </form>
+
                 <div class="contact-container">
+                    <h2>Keep in touch with me</h2>
                     <h3>Connect with me on <a href="https://au.linkedin.com/in/bruna-selymes-967736112">Linkedin <img class="social-icons" src="./images/linkedin.png" alt=""></a></h3>
-                    <h3>Send me an <a href = "mailto: bruna.selymes@gmail.com">email <img class="social-icons" src="./images/email.png" alt=""></a></h3>
                     <h3>Check my work on <a href="https://github.com/brunaselymes">GitHub <img class="social-icons" src="./images/GitHub.png" alt=""></a></h3>
                     <h3>Follow me on <a href="">Twitter <img class="social-icons" src="./images/twitter.png" alt=""></a></h3>
                 </div>
             </div>
         </section>
     </main>
+    <script src="./script/script.js"></script>
 </body>
 </html>
         
