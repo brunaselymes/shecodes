@@ -36,6 +36,7 @@ header a:hover{
     top: 0;
     width: 100%;
     background-color: rgba(209,107,133, 0.2);
+    transition: background 500ms;
   }
 .hero{
     height: 90vh;
@@ -90,18 +91,15 @@ section > div > h2{
         transition: transform .2s;
         cursor:pointer;
 }
-.project-images:hover{
+.project-card:hover{
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2); 
 }
 .project-title a{
-    color: #FFF;
-
-}
-.project-title a:hover{
     color: #D6677e;
-    font-size: 1.5em;
+
+    font-size: 1.2em;
 }
 .projects-container{
     justify-content: center;
