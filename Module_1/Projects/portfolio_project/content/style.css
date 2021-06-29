@@ -4,6 +4,9 @@ html{
     color:#FFF;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 body {
     margin: 0;
     text-align: center;
@@ -84,6 +87,21 @@ section > div > h2{
         object-fit: cover;
         flex-basis: 30%;
         border-radius: 10%;
+        transition: transform .2s;
+        cursor:pointer;
+}
+.project-images:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+.project-title a{
+    color: #FFF;
+
+}
+.project-title a:hover{
+    color: #D6677e;
+    font-size: 1.5em;
 }
 .projects-container{
     justify-content: center;
