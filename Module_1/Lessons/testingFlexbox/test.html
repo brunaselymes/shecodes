@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+
+<style>
+    *{
+        margin: 0; padding: 0; border: 0; box-sizing: border-box;
+    }
+    body{
+        min-height: 100vh;
+        background-color: tan;
+    }
+    .container{
+        background-color: orange;
+        min-height: 100vh;
+        width: 100%; max-width: 1400px; margin: 0 auto;
+       display: flex;
+       flex-direction: row;
+    }
+    .header{
+        background-color: pink;
+        flex: 0 0 300px;
+    }
+    main{
+        background-color: purple;
+        /* min-width: calc(100%-300px); */
+        flex: 1 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .main-block{
+        background-color: seagreen;
+        border: 4px solid #222;
+        min-height: 150px;
+        flex: 1 0 50%;
+    }
+
+    footer{
+        background-color: snow;
+        border: 4px solid #222;
+        min-height: 250px;
+        flex: 1 0 auto;
+    }
+    /*tablet*/
+    @media  screen and (max-width:1000px) {
+        .container{
+            flex-direction: column;
+        }
+    }
+    /*phone*/
+    @media  screen and (max-width:700px) {
+        
+    }
+
+
+
+</style>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="header">Header</div>
+        <main>
+            <div class="main-block"></div>
+            <div class="main-block"></div>
+            <div class="main-block"></div>
+            <div class="main-block"></div>
+            <div class="main-block"></div>
+            <div class="main-block"></div>
+            <footer>
+                footer section
+            </footer>
+
+        </main>
+
+        
+
+    </div>
+
+</body>
+</html>

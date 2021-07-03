@@ -72,12 +72,22 @@ header a:hover{
 #about-photo{
     border-radius: 25%;
     width: 80%;
+    padding: 3em;
+}
+#resume{
+    color:#C2847D;
+    float: left;
+    font-weight: 800;
+}
+#resume:hover{
+    font-size: 1.5em;
+    color:#D6677e;
 }
 h3.subtitle{
     font-size: 2em;
 }
 .section-name{
-    margin-top:2em;
+    margin:2em 0 0 0;
     color:#D6677e;
     font-size: 4em;
 }
