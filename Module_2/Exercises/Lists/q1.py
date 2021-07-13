@@ -23,7 +23,7 @@ foods = [
 # print(foods[0:3])
 
 # 5. The last three items in the list.
-
+#print(foods[7:3])
 
 # # 6. The last item in the sublist.
 # print(foods[6][-1])
