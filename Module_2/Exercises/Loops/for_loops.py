@@ -18,9 +18,10 @@
 #Q3)Given a list, use a for loop to sum all the numbersin the list.
 
 # sum = 0
-# listInput = [3,5,9,1]
-# for n in range(len(listInput)):
-#     sum += listInput[n]
+# listInput = input("Me da uma lista")
+# print(listInput)
+# for n in listInput.split(","):
+#     sum += int(n)
 # print(sum)
 
 # Q4)Use a for loop to format and print the followinglist:
