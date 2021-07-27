@@ -1,11 +1,11 @@
 #Continuously ask the user to enter a number until they provide a blank input. Output the sum of all the numbers.
 #############################AQUI####################################################
-# inputNum = 0
-# sum = 0
-# while inputNum != "":
-#     inputNum = input("Number: ")
-#     sum += int(inputNum)
-# print(sum)
+inputNum = 0
+sum = 0
+while inputNum != "":
+    inputNum = input("Number: ")
+    sum += int(inputNum) if inputNum else 0
+print(sum)
 
 #Ask the user to enter a number. Print all theodd numbers between 0 and that number (inclusive)
 # inputNum = input("Enter a number: ")

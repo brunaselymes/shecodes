@@ -21,45 +21,44 @@ with open("./data/colours_20.csv") as csv_file:
     header = next(csv_reader)
     for line in csv_reader:
         # print(line[4], ", Hex:", line[2],", RGB:", line[1])
-        # Q4
+        # Q4 
+        # #strip() trims the spaces
         if line[4].lower().strip().endswith("blue"):
             blue+=1
-        elif "green" in line[4].lower():
+        elif line[4].lower().strip().endswith("green"):
             green+=1
-        elif "yellow" in line[4].lower():
+        elif line[4].lower().strip().endswith("yellow"):
             yellow+=1
-        elif "red" in line[4].lower():
-            red+=1
-print(f"Blue: ", blue)
-print(f"Green: ", green)
-print(f"Yellow: ", yellow)
-print(f"Red: ", red)
-# Blue:  0
-# Green:  1
-# Yellow:  12
-# Red:  0
-
-#Q4/b
-with open("./data/colours_213.csv") as csv_file:
-    csv_reader = csv.reader(csv_file)
-    header = next(csv_reader)
-    for line in csv_reader:
-        if "blue" in line[4].lower():
-            blue+=1
-        elif "green" in line[4].lower():
-            green+=1
-        elif "yellow" in line[4].lower():
-            yellow+=1
-        elif "red" in line[4].lower():
+        elif line[4].lower().strip().endswith("red"):
             red+=1
 # print(f"Blue: ", blue)
 # print(f"Green: ", green)
 # print(f"Yellow: ", yellow)
 # print(f"Red: ", red)
-# # Blue:  28
-# # Green:  32
-# # Yellow:  22
-# # Red:  25
+# blue = 0
+# green = 0
+# yellow = 0
+# red = 0
+# #Q4/b
+# with open("./data/colours_213.csv") as csv_file:
+#     csv_reader = csv.reader(csv_file)
+#     header = next(csv_reader)
+#     for line in csv_reader:
+#         if line[4].lower().strip().endswith("blue"):
+#             blue+=1
+#         elif line[4].lower().strip().endswith("green"):
+#             green+=1
+#         elif line[4].lower().strip().endswith("yellow"):
+#             yellow+=1
+#         elif line[4].lower().strip().endswith("red"):
+#             red+=1
+# print(f"Blue: ", blue)
+# print(f"Green: ", green)
+# print(f"Yellow: ", yellow)
+# print(f"Red: ", red)
+
+#RAL 2008,247-094-037,#F75E25,Hellrotorange,Bright red orange,Orangé rouge clair,Rojo claro anaranjado,Rosso arancio chiaro,Licht roodoranje
+#Does this count as red or orange?
 
 slowest = 0
 fastest = 0
