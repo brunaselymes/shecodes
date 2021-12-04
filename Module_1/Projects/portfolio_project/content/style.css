@@ -29,7 +29,7 @@ header a{
 header a:hover{
     
     font-weight:bold;
-    font-size: 2.5em;
+    font-size: 1.3em;
    
 }
 #nav-name{
@@ -39,7 +39,7 @@ header a:hover{
 }
 #nav-name:hover{
     color: #FFF;
-    font-size: 2.5em;
+    font-size: 1.3em;
     font-weight: normal;
 }
 .toggler{
@@ -56,8 +56,9 @@ header a:hover{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(209,107,133, 0.2);
+    background-color: rgba(209,107,133, 0.4);
     transition: background 500ms;
+    color: white;
   }
   
 .hero{
@@ -79,7 +80,7 @@ header a:hover{
 }
 .row{
     display: flex;
-    margin: 2em;
+    margin: 0 2em;
 }
 .column{
     width: 50%;
@@ -109,7 +110,7 @@ h3.subtitle{
     font-size: 2em;
 }
 .section-name{
-    margin:2em 0 0 0;
+    margin:3em 0 0 0;
     color:#D6677e;
     font-size: 4em;
 }
@@ -135,7 +136,7 @@ h3.subtitle{
 .image-wrap:hover{
     transition: .9;
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .project-title a{
     color: #D6677e;
@@ -184,7 +185,7 @@ h3.subtitle{
     font-size: 3em;
 }
 .contact h3:hover{
-    font-size: 2em;
+    font-size: 1.3em;
     cursor: pointer;
 }
 .contact-container{
